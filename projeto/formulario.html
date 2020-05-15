@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>Adote Um Bichinho</title>
+	<link href="https://fonts.googleapis.com/css?family=Fenix" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos_formulario.css">
+</head>
+
+<body>
+	<div id="container">
+		<!--Imagem logo-->
+		<header class="topo">
+			<img src="imagens/logo.png" alt="Adote Um Bichinho" class="logo">
+		</header>
+		<nav>
+			<!--Menu-->
+			<ul class="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="cachorrinhos.html">Cachorrinhos</a></li>
+				<li><a href="formulario.html">Formulário</a></li>
+			</ul>
+		</nav>
+		<!--Inicio do Conteudo-->
+		<main>
+			<header class="imagen">
+				<img src="imagens/tela/img.jpg" alt="Imagen" class="tela">
+			</header>
+			<h1>Preencha o Formulário de Inscrição de Adoção</h1>
+
+			<article class="formu">
+				<form action="" method="">
+					<fieldset>
+
+						<legend>Inscrições</legend>
+
+						<div>
+							<label class="dados">Nome Completo:</label>
+							<input type="text" name="name" required autofocus><br>
+						</div>
+
+						<div>
+							<label class="dados">Telefone p/ Contato:</label>
+							<input type="tel" pattern="^\(d{2})\d{4}-\d{4}$" placeholder="(11)90000-0000" required
+								autofocus>
+						</div>
+
+						<div>
+							<label class="dados">E-mail:</label>
+							<input type="email" name="email" placeholder="seuemail@gmail.com">
+						</div>
+
+
+						<legend>Escolha a raça</legend>
+
+						<div class="escolha">
+							<input type="radio" name="raça" value="um" >Maltês
+							<input type="radio" name="raça" value="dois" >Yorkshire terrier
+							<input type="radio" name="raça" value="tres" >Lhasa apso
+							<input type="radio" name="raça" value="quatro" >Shih-tzu
+							<input type="radio" name="raça" value="cinco" >Spitz Alemão-anão
+							<input type="radio" name="raça" value="seis" >Dachshund
+							<input type="radio" name="raça" value="sete" >Pinscher miniatura
+							<input type="radio" name="raça" value="oito" >Schnauzer
+							<input type="radio" name="raça" value="nove" >Poodle
+							<input type="radio" name="raça" value="dez" >Chihuahua
+							<input type="radio" name="raça" value="onze" >Pug
+							<input type="radio" name="raça" value="dose" >Cavalier king charles spanie
+						</div>
+
+						<input type="Submit" value="Enviar">
+					</fieldset>
+				</form>
+			</article>
+		</main>
+		<footer>
+			Desenvolvido por: Joselaine
+
+		</footer>
+
+
+	</div>
+
+
+</body>
+
+</html>

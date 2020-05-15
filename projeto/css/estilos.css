@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+}
+
+
+body{
+	background-image:url("../imagens/patinha.jpg");
+}
+#container{
+	width:960px;
+	background-color: rgba(176, 224, 230,0.5);
+	border-radius: 20px;
+	margin:auto;
+}
+.logo{
+	height:100px;
+	margin-top:20px
+}
+.topo{
+	text-align:center;
+}
+.menu li{
+	display:inline;
+}
+nav{
+	text-align:center;
+	margin:10px 5px 25px;
+}
+a{
+	background-color:mediumturquoise;
+	color:seagreen;
+	border-radius:10px;
+	padding: 10px 15px;
+	margin: 0 10px;
+	text-transform:uppercase;
+	font-family: 'Fenix', serif;
+}
+a:link{
+	background-color:mediumturquoise;
+	text-decoration:none;
+}
+a:hover{
+	background-color:darkturquoise;
+}
+a:active{
+	background-color:mediumturquoise;
+}
+main{
+	margin: auto;
+	width:950px;
+}
+.imagen{
+	margin: 20px auto;
+	text-align: center;
+}
+.tela{
+	height:250px;
+	border-radius:10px;
+	margin: auto;
+	align-items: center;
+}
+
+h1{
+	font-size:30px;
+	font-family: 'Fenix', serif;
+	color:seagreen;
+	text-transform:uppercase;
+	text-align: center;
+	margin: 5px;
+}	
+.text{
+	margin: 20px auto;
+	font-family:verdana, arial, sans-serif;
+	text-align:justify;
+
+	width: 870px;
+	color:rgb(35, 128, 124);
+	/* padding: 0, 30px; */
+}
+footer{
+	font-size:30px;
+	font-family: 'Fenix', serif;
+	color:seagreen;
+	background-color:mediumturquoise;
+	height:70px;
+	width:960px;
+	border-radius:10px;
+	margin-top:20px;
+	margin: 0, auto;
+	text-align:center;
+}
